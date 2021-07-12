@@ -14,7 +14,7 @@ To run the app locally, an OpenWeatherMap API key is necessary
 
 BASE URL: `http://localhost:YOUR_PORT`
 
-### Weather by city
+### Current weather by city
 
 Enter `city` query paramater (`city_name`, or `city_name,country_code`)
 
@@ -22,6 +22,10 @@ GET `/weather?city=Toronto`<br/>
 GET `/weather?city=Hamilton,CA`<br/>
 GET `/weather?city=Houston,US`
 
-### Enter your mood
+#### Enter your mood (optional)
 
-Coming soon
+Add `mood` query parameter to enter your mood based on the weather
+
+GET `/weather?city=Toronto&mood=happy`<br/>
+GET `/weather?city=Hamilton,CA&mood=motivated`<br/>
+GET `/weather?city=Houston,US&mood=excited`
