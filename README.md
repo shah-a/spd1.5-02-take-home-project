@@ -1,5 +1,7 @@
 # SPD 1.5: Take Home Coding Project
 
+Written in JavaScript (Node.js v15.11.0)
+
 ## Description
 
 Use any backend framework to build a weather app using the OpenWeatherMap API. Allow anonymous users to input their mood each day corresponding to the weather.
@@ -16,9 +18,9 @@ BASE URL: `http://localhost:YOUR_PORT`
 
 Enter `city` query paramater (`city_name`, or `city_name,country_code`)
 
-`GET /weather?city=Toronto`
-`GET /weather?city=Hamilton,CA`
-`GET /weather?city=Houston,US`
+GET `/weather?city=Toronto`<br/>
+GET `/weather?city=Hamilton,CA`<br/>
+GET `/weather?city=Houston,US`
 
 ### Enter your mood
 
